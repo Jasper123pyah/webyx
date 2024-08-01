@@ -1,6 +1,11 @@
 import './App.css'
+import {useEffect} from "react";
 
 function App() {
+
+  useEffect(() => {
+    window.location.href = "https://www.jaspervandenmeiracker.com";
+  }, []);
 
   return (
     <>
